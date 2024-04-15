@@ -1,0 +1,62 @@
+.services {
+  padding: 2rem;
+}
+
+.heading h2 {
+  font-weight: 500;
+  color: rgb(20, 38, 83);
+  text-align: center; /* Center the heading */
+}
+
+.box {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap to the next line on smaller screens */
+  justify-content: center; /* Center the boxes horizontally */
+  gap: 2rem; /* Adjust the gap between boxes */
+}
+
+.inner-box {
+  height: auto; /* Allow the height to adjust based on content */
+  width: 25rem;
+  background-color: #f0f0f0; /* Just for visualization, remove this */
+  display: flex;
+  border-radius: 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inner-text {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; /* Add padding for better spacing */
+}
+
+.inner-h1 p {
+  margin-top: 0.5rem; /* Adjust the margin for better spacing */
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inner-p {
+  margin-top: 0.5rem; /* Adjust the margin for better spacing */
+  font-size: 0.9rem; /* Adjust the font size */
+  text-align: center; /* Center the text */
+}
+
+/* Optional: Adjust image size */
+.inner-box img {
+  width: 80px; /* Adjust as needed */
+  height: 60px; /* Maintain aspect ratio */
+}
+
+.button {
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem; /* Adjust the top margin */
+  margin-left: auto; /* Center the button horizontally */
+  margin-right: auto; /* Center the button horizontally */
+}

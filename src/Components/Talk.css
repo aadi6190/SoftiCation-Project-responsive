@@ -1,0 +1,94 @@
+.talk-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10rem;
+}
+
+.talk-text {
+  margin-left: 10rem;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.talk-image {
+  width: 40rem;
+  margin-left: 0rem;
+  margin-bottom: 1rem;
+}
+
+.h1-title {
+  font-size: 30rem;
+  line-height: 108px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+
+.h1-title span {
+  color: #ff8243;
+  background-size: 100% 15px;
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+
+.talk-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3f3f3f;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.talk-description {
+  font-size: 1.125rem;
+  color: #3f3f3f;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.talk-description-2 {
+  font-size: 1.125rem;
+  color: #3f3f3f;
+  text-align: center;
+}
+
+.button-talk {
+  width: 9rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-right: 0rem;
+}
+
+.talk-button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .talk-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .talk-text {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .talk-image {
+    width: 80%;
+  }
+}

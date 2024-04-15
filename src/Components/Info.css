@@ -1,0 +1,75 @@
+.h1-title {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 108px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+
+.h1-title span {
+  color: #ff8243;
+  background-size: 100% 15px;
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+
+.info-grp {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.info {
+  flex: 1; /* Take up equal space within the flex container */
+  padding: 1rem;
+  border: none;
+  max-width: 300px; /* Limit maximum width of each item */
+  margin-bottom: 2rem; /* Add some margin between items */
+}
+
+.info img {
+  width: 100%; /* Make images fill their container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0.5rem;
+  background-color: antiquewhite;
+}
+
+.info h2 {
+  margin-top: 1rem;
+}
+
+.info-btn {
+  margin-left: 52rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .h1-title {
+    font-size: 20px;
+    line-height: 60px; /* Adjust line height for smaller screens */
+  }
+  .info{
+    border: 1px  rgb(12,38,83);
+    padding: 2rem;
+    border-radius: 2rem;
+  }
+
+  .info img {
+    height: 10rem;
+  }
+  .info-btn {
+    margin-left: 9rem;
+    width: 9rem; /* Make the button full width */
+    margin-top: 2rem;
+  }
+}

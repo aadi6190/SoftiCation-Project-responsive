@@ -1,0 +1,78 @@
+.h1-title {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rem;
+  line-height: 108px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+
+.h1-title span {
+  color: #ff8243;
+  background-size: 100% 15px;
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+
+.card-grp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: none;
+  margin: 1rem; /* Add margin to create space between cards */
+}
+
+.card img {
+  height: 15rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+  background-color: antiquewhite;
+}
+
+.card h2 {
+  margin-top: 1rem;
+}
+
+.card-btn {
+  margin-top: 5rem;
+  margin-left: 51rem; /* Adjust margin to be centered horizontally */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .card-grp{
+    display: flex;
+
+    flex-direction: column;
+
+  }
+  .card {
+    margin-left: 2.5rem;
+    width: 80%; /* Adjust card width for smaller screens */
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .card img {
+    height: 10rem; /* Adjust image height for smaller screens */
+    width: 100%; /* Make image width 100% to maintain aspect ratio */
+  }
+
+  .card-btn {
+    margin-top: 1rem;
+    margin-left:9rem; /* Center the button horizontally on smaller screens */
+    margin-right: auto;
+    text-align: center;
+  }
+}

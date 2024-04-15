@@ -1,0 +1,94 @@
+.providers {
+  height: 20rem;
+  width: 80%;
+  border-radius: 15px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: white;
+  color: rgb(20, 38, 83);
+}
+
+.heading {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.heading h1 {
+  color: rgb(20, 38, 83);
+}
+
+.types {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+button {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  width: 9rem;
+  height: 2.9rem;
+  color: white;
+  background-color: rgb(243, 130, 24);
+  border: none;
+  border-radius: 1.2rem;
+}
+
+select {
+  border-radius: 5px;
+  height: 2rem;
+  width: 10rem;
+  color: rgb(116, 116, 115);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .providers {
+    border: 1px solid rgb(20, 38, 83);
+    height: 50rem;
+    width: 90%;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+   
+  }
+
+  .heading {
+  
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    width: 7rem;
+    height: 2.5rem;
+  }
+
+  select {
+    height: 1.8rem;
+    width: 8rem;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .types {
+    margin-left: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .types section{
+    align-items:center ;
+    justify-content: center;
+
+  }
+ 
+}
